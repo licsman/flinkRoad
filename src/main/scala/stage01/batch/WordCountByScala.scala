@@ -3,7 +3,7 @@ package stage01.batch
 import org.apache.flink.api.scala.ExecutionEnvironment
 import org.apache.flink.api.scala._
 
-object WordCount{
+object WordCountByScala {
   def main(args: Array[String]): Unit = {
     val env: ExecutionEnvironment = ExecutionEnvironment.getExecutionEnvironment
     env.setParallelism(1)
