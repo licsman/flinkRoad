@@ -1,4 +1,4 @@
-package stage01.batch
+package com.flink.stage01.batch
 
 import org.apache.flink.api.scala.ExecutionEnvironment
 import org.apache.flink.api.scala._
