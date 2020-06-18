@@ -4,7 +4,7 @@
 !.editorconfig
 !.gitignore
 !.gitattributes
-.idea
+.idea/*
 /config/
 bin/
 *.iml
@@ -13,6 +13,7 @@ bin/
 rt_appmgr_impl/upload.jar
 rt_appmgr_impl/upload.txt
 
+/output
 # Maven related file
 target/
 pom.xml.tag
