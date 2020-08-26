@@ -3,23 +3,18 @@
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
       <option name="id" value="central" />
-      <option name="name" value="Maven Central repository" />
-      <option name="url" value="https://repo1.maven.org/maven2" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="mvnjar" />
-      <option name="name" value="mvnjar" />
-      <option name="url" value="https://repo.maven.apache.org/maven2/" />
+      <option name="id" value="uums-snapshot" />
+      <option name="name" value="uums-snapshot" />
+      <option name="url" value="http://repo.datacanvas.com:8081/artifactory/uums-snapshot" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="jboss.community" />
-      <option name="name" value="JBoss Community repository" />
-      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="libs-release" />
-      <option name="name" value="libs-release" />
-      <option name="url" value="http://repo.datacanvas.com:8081/artifactory/libs-release" />
+      <option name="id" value="uums-release" />
+      <option name="name" value="uums-release" />
+      <option name="url" value="http://repo.datacanvas.com:8081/artifactory/uums-release" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="rtsimulator-snapshot" />
@@ -32,29 +27,24 @@
       <option name="url" value="https://repository.apache.org/content/repositories/snapshots/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="libs-release" />
+      <option name="name" value="libs-release" />
+      <option name="url" value="http://repo.datacanvas.com:8081/artifactory/libs-release" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="rtsimulator-release" />
       <option name="name" value="rtsimulator-release" />
       <option name="url" value="http://repo.datacanvas.com:8081/artifactory/rtsimulator-release" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="aliyunmaven" />
-      <option name="name" value="aliyun maven" />
-      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="uums-release" />
-      <option name="name" value="uums-release" />
-      <option name="url" value="http://repo.datacanvas.com:8081/artifactory/uums-release" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Central Repository" />
-      <option name="url" value="https://repo.maven.apache.org/maven2" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="streamtau-release" />
-      <option name="name" value="streamtau-release" />
-      <option name="url" value="http://repo.datacanvas.com:8081/artifactory/streamtau-release" />
+      <option name="id" value="aiops-snapshot" />
+      <option name="name" value="aiops-snapshot" />
+      <option name="url" value="http://repo.datacanvas.com:8081/artifactory/aiops-snapshot" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="streamtau-snapshot" />
@@ -67,14 +57,24 @@
       <option name="url" value="http://packages.confluent.io/maven" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="aiops-snapshot" />
-      <option name="name" value="aiops-snapshot" />
-      <option name="url" value="http://repo.datacanvas.com:8081/artifactory/aiops-snapshot" />
+      <option name="id" value="mvnjar" />
+      <option name="name" value="mvnjar" />
+      <option name="url" value="https://repo.maven.apache.org/maven2/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="uums-snapshot" />
-      <option name="name" value="uums-snapshot" />
-      <option name="url" value="http://repo.datacanvas.com:8081/artifactory/uums-snapshot" />
+      <option name="id" value="aliyunmaven" />
+      <option name="name" value="aliyun maven" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="streamtau-release" />
+      <option name="name" value="streamtau-release" />
+      <option name="url" value="http://repo.datacanvas.com:8081/artifactory/streamtau-release" />
     </remote-repository>
   </component>
 </project>
